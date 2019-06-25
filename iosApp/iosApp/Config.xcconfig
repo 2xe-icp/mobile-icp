@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  iosApp
+//
+//  Created by Nate Ebel on 6/25/19.
+//  Copyright © 2019 Nate Ebel. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+IPHONEOS_DEPLOYMENT_TARGET = 10
+SWIFT_TREAT_WARNINGS_AS_ERRORS = YES
