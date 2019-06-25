@@ -17,7 +17,13 @@ android {
     }
 
     buildTypes {
+        
+        debug {
+            manifestPlaceholders = [usesCleartextTraffic:"true"]
+        }
         release {
+            manifestPlaceholders = [usesCleartextTraffic:"false"]
+            
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
